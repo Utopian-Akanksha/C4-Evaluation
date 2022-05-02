@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <style>
+
+      body{
+        background-color: rgb(221, 183, 111);
+      }
+
+     #navbar{
+       display:flex;
+      justify-content:center;
+      align-items:center;
+     gap:20px;
+    
+     }
+
+     #search_input{
+       width:70%;
+       height:40px;
+       border-radius:15px;
+       border:1px solid grey;
+       background-color: white;
+     }
+
+     #main{
+       display:flex;
+     }
+
+     #sidebar{
+      display:grid;
+      width:150px;
+      grid-template-rows:repeat(5,30%);
+      gap:10px;
+     }
+
+     button{
+       background-color: teal;
+     }
+
+     .news{
+       background-color: white;
+       border:1px solid white;
+       display:grid;
+       grid-template-rows:repeat(4,120px);
+       gap:10px;
+       margin-left:10px;
+       margin-top:50px;
+     }
+
+     #results{
+       display:flex;
+       border:1px solid black;
+       gap:10px;
+     }
+     img{
+       height:115px;
+       width:150px;
+     }
+     /* #div_title{
+       
+     } */
+
+    </style>
+  </head>
+  <body>
+    <!-- Give Navbar with id "navbar"  -->
+    <!-- Navbar will have input with id search_input and a link to home page i.e. index.html -->
+    <!-- Sidebar will have id "sidebar"  -->
+    <!-- Give link to top headlines of countries in sidebar with id as their country codes 
+    india :- in
+    china :- ch
+    usa :- us
+    uk : uk
+    Newzeland :- nz -->
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
+
+      
+      <div id="navbar">
+        <!-- <h1><a href="index.html">News App</a></h1>
+       
+        <input type="text" id="search_input"> -->
+  
+      </div>
+      
+      <div id="main">
+         
+       <!-- <div>
+          <h2>Countries</h2>
+          <div id="sidebar">
+           <button id="in">India</button>
+           <button id="ch">China</button>
+           <button id="us">Usa</button>
+           <button id="uk">United Kingdom</button>
+           <button id="nz">New Zealand</button>
+          </div>
+       </div>
+    
+       <div class="news"></div> -->
+
+      </div>
+
+    
+  </body>
+</html>
+<script src="scripts/index.js" type="module"></script>
